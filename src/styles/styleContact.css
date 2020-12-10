@@ -1,0 +1,47 @@
+.container-contact {
+    width: 100%;
+    height: 490px;
+}
+.contact {
+    display: flex;
+
+    justify-content: center;
+}
+form {
+    display: flex;
+    width: 400px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+input {
+    height: 30px;
+}
+textarea {
+    height: 100px;
+}
+input,
+textarea {
+    margin-top: 5px;
+    border-radius: 4px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.button-submit {
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    border-style: none;
+    background-color: rgb(19, 163, 127);
+    color: #fff;
+}

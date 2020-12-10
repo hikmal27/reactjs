@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+
+    justify-content: center;
+    min-height: 280px;
+    width: 100%;
+    background-color: #fff;
+    background-image: url('../images/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0 -110px;
+    z-index: 99999;  
+}
+.bungkus {
+    width: 500px;
+    height: 440px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgba(177, 177, 177, 0.87);
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px rgba(27, 27, 27, 0.404);
+}
+.poto-profil {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.poto-profil img {
+    width: 170px;
+    height: 170px;
+    position: relative;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.deskripsi {
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+.deskripsi h1 {
+    font-size: 25px;
+}
+.content {
+    margin-top: 10px;
+    color: #fff;
+}
+
+/* Resfonsiv */
+@media screen and (max-width: 425px) {
+    .header {
+        max-width: 100%;
+        min-height: 240px;
+        background-position: 0 -5px;
+    }
+    .poto-profil {
+        width: 120px;
+        height: 120px;
+    }
+    .poto-profil img {
+        width: 120px;
+        height: 120px;
+    }
+    .deskripsi h1 {
+        font-size: 18px;
+    }
+}
