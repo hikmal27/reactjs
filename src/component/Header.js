@@ -12,10 +12,10 @@ class Header extends Component {
                     </div>
                     <div className="deskripsi">
                         <h1 className="h1-animasi">Hikmal Maulana Ramadhan</h1>
-                        <p className="p-animasi">| Front-End Developer |</p>
+                        <p className="p-animasi">| Web Developer |</p>
                     </div>
                     <div className="content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam recusandae amet ullam porro adipisci fuga totam similique neque, ratione dignissimos saepe tempora itaque consectetur, repellendus earum. Dolorem, sit at rem quisquam exercitationem sequi natus earum quibusdam! Vero, voluptas voluptates provident ipsum quibusdam cupiditate ullam id porro deserunt, distinctio nesciunt expedita!</p>
+                        <p>Saya adalah seorang Web Developer yang kreatif dan terbiasa dengan mencari sesuatu hal yang baru. Selama satu tahun bekerja saya berperan untuk meningkatkan skill dan kemampuan saya untuk membuat program. Kreativitas yang saya lakukan juga berperan penting dalam meningkatkan keterampilan kepemimpinan sehingga saya bisa mencari solusi saat ada larangan.</p>
                     </div>
                 </div>
             </section>
